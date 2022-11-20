@@ -1,0 +1,20 @@
+head,h1,div{
+   text-align: center;
+   font-size: 85;
+   background-color: rgb(190, 100, 190);
+   color: white
+}
+
+body{
+    font-size: 35;
+    color: rgb(190, 100, 190);
+    background-color: black;
+
+}
+footer{
+    text-align: center;
+    font-size: 13;
+    color: white;
+    background-color:rgb(190, 100, 190);
+}
+

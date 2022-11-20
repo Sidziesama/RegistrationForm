@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="ValidationForm.css">
+        <title>Validation Form</title>
+        <div class="ValidationFrom">
+            <h1>Registration Form</h1>
+            </div>
+    </head>
+    <body>
+
+        <center>
+                <fieldset style="width:300px">
+                    <form >
+                    <legend>Registation Form</legend>
+                    <br></br>
+                    <table>
+                        <tr>
+                            <input type="text" 
+                                placeholder="Username" 
+                                id="t3">
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <input type="email" placeholder="@mahindrauniversity.edu" id="t2" >
+                
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <input type="password" 
+                                placeholder="Enter password" id="t4">
+                                
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <input type="password" placeholder="Confirm password" id="t5">
+                               
+                        </tr>
+                        <br><br>
+                        <tr>
+                            <input type="text" pattern="^[a-zA-Z0-9 ]+$"
+                                placeholder="Roll number" id="t6">
+                        </tr>
+                        
+                        <br><br>
+                        <tr>
+                            <input type="submit" onclick="validate()" value="Submit">
+                            </tr>
+                    </table>
+                </fieldset>
+            </form>
+            </center>
+            <br></br>
+            <footer> Made by Sidzie </footer>
+            <script src="ValidationForm.js"></script>
+    </body>
+</html>
